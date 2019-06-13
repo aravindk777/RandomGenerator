@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Randomizer.Core.Logic;
+using System;
 
 namespace RandomGenerator
 {
@@ -6,7 +7,9 @@ namespace RandomGenerator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("#*#*#*#\t\t Welcome to Random Generator\t\t *#*#*#*#");
+            IRandomize randomizer = new RandomGeneratorLogic();
+            //randomizer.Randomize()
         }
     }
 }
